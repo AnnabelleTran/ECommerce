@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel = "stylesheet" href = "css/style.css">
+<script type = "text/javascript" src = "js/script.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <img src = "images/logo3.png">
+      <a class="navbar-brand" href="#">SqueezeMallows</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">All SqueezeMallows</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><p class="dropdown-item">Sizes</p></li>
+              <li><a class="dropdown-item" href="keyaxolotl.html">Keychain</a></li>
+              <li><a class="dropdown-item" href="scow.html">Small</a></li>
+              <li><a class="dropdown-item" href="mcrab.html">Medium</a></li>
+              <li><a class="dropdown-item" href="lshark.html">Large</a></li>
+              <li><a class="dropdown-item" href="xlnarwhal.html">X-Large</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<body>
+<div class = "productcontainer">
+    <h1 id = "itemhead">Medium Crab Plush - $12.99(+$2.99 shipping)</h1>
+    <div class="img-magnifier-container">
+    <img id="myimage" src="images/mediums/crab.png" width="400" height="400"">
+    </div>
+    <div id = "itemdesc">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, enim aperiam harum sapiente non possimus, quaerat beatae perspiciatis quia esse debitis modi, dicta hic eaque est eveniet. Distinctio, id culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut molestias dicta deleniti omnis aspernatur enim natus, unde deserunt soluta tempore esse nam, ullam, dolore quibusdam voluptate possimus harum blanditiis quod.</p>
+      <button id = "cartbutton" href = "cart.html" onclick = "addCartcrab()">Add to Cart</button>
+      <p>*Any item can be returned if the tag is still on it and no obvious customer inflicted damage is upon it, as well as the shipping receipt for evidence of purchase is provided, items can only be returned within 6 months of purchase.</p>
+    </div>
+</div>
+<script>
+/* Initiate Magnify Function
+with the id of the image, and the strength of the magnifier glass:*/
+magnify("myimage", 3);
+</script>
+
+</body>
+<footer>
+  <div class = "footinfo">
+    <img src= "images/logo3.png">
+    <h3>SqueezeMallows</h3>
+  </div>
+  <div class = "footlinks">
+      <a href = "index.html">Home</a>
+      <a href = "about.html">About</a>
+      <a href = "contact.html">Contact</a>
+      <a href = "products.html">Products</a>
+      <form class="d-flex">
+        <input id = "footsearch" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id = "footsearchbutton" class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+  </div>
+  <div class = "footmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.6709250553045!2d-112.29502798465434!3d33.535940480749545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b4104080e38d9%3A0x1fbd2919e78fa444!2sWest-MEC%20Central%20Campus!5e0!3m2!1sen!2sus!4v1645647347806!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <div class = "footsocials">
+    <p>Facebook: @SqueezeMallows</p>
+    <p>Instagram: @SqueezeMallowsOfficial</p>
+    <p>Twitter: @SqueezeMallows</p>
+    <p>Youtube: SqueezeMallows_Official</p>
+    <p>Phone Number: 123-456-7890</p>
+  </div>
+  <div class = "returnpol">
+    <b>Privacy Policy</b>
+    <p>This privacy policy will help you understand how Squeezemallows uses and
+    protects the data you provide to us when you visit and use our website.
+    We reserve the right to change this policy at any given time, of which you will be promptly
+    updated. If you want to make sure that you are up to date with the latest changes, we advise
+    you to frequently visit this page.
+    What User Data We Collect
+    When you visit the website, we may collect the following data:
+    </p>
+    <ul>
+    <li>Your IP address.</li>
+    <li>Your contact information and email address.</li>
+    <li>Other information such as interests and preferences.</li>
+    <li>Data profile regarding your online behavior on our website.</li>
+    </ul>
+    <b>Why We Collect Your Data</b>
+    <p>We are collecting your data for several reasons:</p>
+    <li>To better understand your needs.</li>
+    <li>To improve our services and products.</li>
+    <li>To send you promotional emails containing the information we think you will find
+        interesting.</li>
+    <li>To contact you to fill out surveys and participate in other types of market research.</li>
+    <li>To customize our website according to your online behavior and personal preferences.</li>
+    <b>Safeguarding and Securing the Data</b>
+    <p>Squeezemallows is committed to securing your data and keeping it confidential. SqueezeMallows has done all in its
+    power to prevent data theft, unauthorized access, and disclosure by implementing the latest
+    technologies and software, which help us safeguard all the information we collect online.
+    Our Cookie Policy
+    Once you agree to allow our website to use cookies, you also agree to use the data it collects
+    regarding your online behavior (analyze web traffic, web pages you spend the most time on,
+    and websites you visit).
+    The data we collect by using cookies is used to customize our website to your needs. After we
+    use the data for statistical analysis, the data is completely removed from our systems.
+    Please note that cookies don't allow us to gain control of your computer in any way. They are
+    strictly used to monitor which pages you find useful and which you do not so that we can
+    provide a better experience for you.
+    Terms and conditions template by WebsitePolicies.com
+    If you want to disable cookies, you can do it by accessing the settings of your internet browser.
+    (Provide links for cookie settings for major internet browsers).
+    Links to Other Websites
+    Our website contains links that lead to other websites. If you click on these links SqueezeMallows is not
+    held responsible for your data and privacy protection. Visiting those websites is not governed by
+    this privacy policy agreement. Make sure to read the privacy policy documentation of the
+    website you go to from our website.
+    Restricting the Collection of your Personal Data
+    At some point, you might wish to restrict the use and collection of your personal data. You can
+    achieve this by doing the following:
+    When you are filling the forms on the website, make sure to check if there is a box which you
+    can leave unchecked, if you don't want to disclose your personal information.
+    If you have already agreed to share your information with us, feel free to contact us via email
+    and we will be more than happy to change this for you.
+    SqueezeMallows will not lease, sell or distribute your personal information to any third parties, unless we
+    have your permission. We might do so if the law forces us. Your personal information will be
+    used when we need to send you promotional materials if you agree to this privacy policy
+    </p>
+    <br/>
+    <b>Terms and Conditions</b>
+    <b>Terms and Conditions</b>
+    <p>Last updated: February 25, 2022</p>
+    <p>Please read these terms and conditions carefully before using Our Service.</p>
+    <b>Interpretation and Definitions</b>
+    <h5>Interpretation</h5>
+    <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+    <h5>Definitions</h5>
+    <p>For the purposes of these Terms and Conditions:</p>
+    <ul>
+    <li>
+    <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+    </li>
+    <li>
+    <p><strong>Country</strong> refers to: Arizona,  United States</p>
+    </li>
+    <li>
+    <p><strong>Company</strong> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Squeezemallows, 123 Business Street 25678.</p>
+    </li>
+    <li>
+    <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+    </li>
+    <li>
+    <p><strong>Service</strong> refers to the Website.</p>
+    </li>
+    <li>
+    <p><strong>Terms and Conditions</strong> (also referred as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.</p>
+    </li>
+    <li>
+    <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
+    </li>
+    <li>
+    <p><strong>Website</strong> refers to Squeezemallows, accessible from <a href="http://squeezemallows.com" rel="external nofollow noopener" target="_blank">http://squeezemallows.com</a></p>
+    </li>
+    <li>
+    <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+    </li>
+    </ul>
+    <b>Acknowledgment</b>
+    <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
+    <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.</p>
+    <p>By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.</p>
+    <p>You represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.</p>
+    <p>Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.</p>
+    <b>Links to Other Websites</b>
+    <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.</p>
+    <p>The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+    <p>We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.</p>
+    <b>Termination</b>
+    <p>We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.</p>
+    <p>Upon termination, Your right to use the Service will cease immediately.</p>
+    <b>Limitation of Liability</b>
+    <p>Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.</p>
+    <p>To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.</p>
+    <p>Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.</p>
+    <b>"AS IS" and "AS AVAILABLE" Disclaimer</b>
+    <p>The Service is provided to You "AS IS" and "AS AVAILABLE" and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.</p>
+    <p>Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.</p>
+    <p>Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.</p>
+    <b>Governing Law</b>
+    <p>The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.</p>
+    <b>Disputes Resolution</b>
+    <p>If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.</p>
+    <b>For European Union (EU) Users</b>
+    <p>If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.</p>
+    <b>United States Legal Compliance</b>
+    <p>You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a "terrorist supporting" country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.</p>
+    <b>Severability and Waiver</b>
+    <h5>Severability</h5>
+    <p>If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.</p>
+    <h5>Waiver</h5>
+    <p>Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.</p>
+    <b>Translation Interpretation</b>
+    <p>These Terms and Conditions may have been translated if We have made them available to You on our Service.
+    You agree that the original English text shall prevail in the case of a dispute.</p>
+    <b>Changes to These Terms and Conditions</b>
+    <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.</p>
+    <p>By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.</p>
+    <b>Contact Us</b>
+    <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
+    <ul>
+    <li>
+    <p>By email: squeezemallows@gmail.com</p>
+    </li>
+    <li>
+    <p>By visiting this page on our website: <a href="http://squeezemallows.com" rel="external nofollow noopener" target="_blank">http://squeezemallows.com</a></p>
+    </li>
+    <li>
+    <p>By phone number: 123.456.7890</p>
+    </li>
+    <li>
+    <p>By mail: 123 Business Street 34567</p>
+    </li>
+    </ul>
+      </div>
+    
+</footer>
+</html>

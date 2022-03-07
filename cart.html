@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel = "stylesheet" href = "css/style.css">
+<script type = "text/javascript" src = "js/script.js"></script>
+</head>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <img src = "images/logo3.png">
+    <a class="navbar-brand" href="#">SqueezeMallows</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="index.html">All SqueezeMallows</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><p class="dropdown-item">Sizes</p></li>
+              <li><a class="dropdown-item" href="keyaxolotl.html">Keychain</a></li>
+              <li><a class="dropdown-item" href="scow.html">Small</a></li>
+              <li><a class="dropdown-item" href="mcrab.html">Medium</a></li>
+              <li><a class="dropdown-item" href="lshark.html">Large</a></li>
+              <li><a class="dropdown-item" href="xlnarwhal.html">X-Large</a></li>
+            </ul>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<body onload = "Cart()">
+    <p id = "finalcart">  </p>
+</body>
+<footer>
+  <div class = "footinfo">
+    <img src= "images/logo3.png">
+    <h3>SqueezeMallows</h3>
+  </div>
+  <div class = "footlinks">
+      <a href = "index.html">Home</a>
+      <a href = "about.html">About</a>
+      <a href = "contact.html">Contact</a>
+      <a href = "products.html">Products</a>
+      <form class="d-flex">
+        <input id = "footsearch" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id = "footsearchbutton" class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+  </div>
+  <div class = "footmap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.6709250553045!2d-112.29502798465434!3d33.535940480749545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b4104080e38d9%3A0x1fbd2919e78fa444!2sWest-MEC%20Central%20Campus!5e0!3m2!1sen!2sus!4v1645647347806!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+  <div class = "footsocials">
+    <p>Facebook: @SqueezeMallows</p>
+    <p>Instagram: @SqueezeMallowsOfficial</p>
+    <p>Twitter: @SqueezeMallows</p>
+    <p>Youtube: SqueezeMallows_Official</p>
+    <p>Phone Number: 123-456-7890</p>
+  </div>
+  <div class = "returnpol">
+    <p>
+      *Any item can be returned if the tag is still on it and no obvious customer inflicted damage is upon it, as well as the shipping receipt for evidence of purchase is provided, items can only be returned within 6 months of purchase.
+    </p>
+  </div>
+</footer>
+</html>

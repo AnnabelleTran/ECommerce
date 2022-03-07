@@ -1,0 +1,400 @@
+body{
+    overflow-x: hidden;
+}
+nav{
+    background-color: rgb(160, 186, 235);
+    font-size: 1rem;
+    background-color: rgb(84, 106, 148);
+    color: black;
+}
+nav img{
+    height: 3vw;
+    width: 3vw;
+    margin-right: 1vw;
+}
+.nav-link{
+    color: black;
+}
+    .nav-link:hover{
+        color:rgb(192, 228, 235);
+    }
+.navbar-brand{
+    color: black;
+}
+    .navbar-brand:hover{
+        color:rgb(192, 228, 235);
+    }
+img{
+    height: 25vw;
+}
+.carousel-inner{
+    height: 25vw;
+    width: 120%;
+}
+.container{
+    margin-left: -.75vw;
+    width: 120%;
+}
+.shop{
+    background-color: rgb(245, 235, 252);
+    width: 120%;
+    padding: 1vw 2.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+    .shop div img{
+        height: 15vw;
+        width: 15vw;
+    }
+.items-container{
+    background-color: rgb(192, 228, 235);
+    border-radius: 2.5vw;
+}
+    .items-container:hover{
+        background-color: rgb(160, 186, 235);
+    }
+.items-container a{
+    text-decoration: none;
+}
+.items-container a p {
+    text-align: center;
+    font-size: 1.5vw;
+    color: black;
+}
+#browsetitle{
+    text-align: center;
+    padding: 1vw .5vw;
+    background-color: rgb(84, 106, 148);
+    width: 20vw;
+    font-size: 2vw;
+    margin: 1.5vw 0vw;
+    border-top-right-radius: 1.5vw;
+    border-bottom-right-radius: 1.5vw;
+}
+#contacttitle{
+    text-align: center;
+    padding: 1vw .5vw;
+    background-color: rgb(84, 106, 148);
+    width: 25vw;
+    font-size: 2.5vw;
+    margin: auto;   
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+.contactarea{
+    text-align: center;
+    width: 120%;
+}
+.contact{
+    display: grid;
+    grid-template-areas: 
+    "info contactimg";
+}
+.contactimg{
+    grid-area: contactimg;
+    background-color: rgb(245, 235, 252);
+    padding: 1.5vw 0vw;
+    border-radius: 2.5vw;
+}
+.info{
+    grid-area: info;
+    margin: .5vw 2.5vw;
+    padding: 0vw 5vw;
+    background-color:rgb(160, 186, 235);
+    width: 50vw;
+    border-radius: 5vw;
+}
+    .info p{
+        padding-top: 5vw;
+        font-size: 1.35vw;
+    }
+.btn{
+    color: black;
+    border: black solid 1px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    border: black solid 1px;
+}
+.more{
+    background-color: rgb(84, 106, 148);
+    padding: .5vw 1.5vw;
+    width: 15vw;
+    border-radius: 2.5vw;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+    .more:hover{
+        background-color:rgb(192, 228, 235);
+    }
+.contactimg{
+    grid-area: contactimg;
+    transform: translateX(-7.5vw);
+}
+.aboutarea{
+    border: double 1vw rgb(84, 106, 148);
+    padding: 2.5vw;
+    margin: 5vw;
+    width: 105%;
+}
+#abouttitle{
+    font-size: 2.5vw;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(192, 228, 235);
+    width: 20vw;
+    margin: auto;
+    padding: 1.5vw .25vw;
+    border-radius: 5vw;
+}
+.aboutinfo{
+    font-size: 1.5vw;
+    margin: 1.5vw;
+    text-indent: 5vw;
+    text-align: center;
+}
+.more2{
+    background-color: rgb(84, 106, 148);
+    padding: 1vw 3vw;
+    width: 20vw;
+    border-radius: 2.5vw;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 32.5vw;
+}
+    .more2:hover{
+        background-color: rgb(160, 186, 235);
+        color: black;
+    }
+footer{
+    height: 25vw;
+    background-color: rgb(84, 106, 148);
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "footinfo footmap footsocials"
+    "footlinks footmap footsocials"
+    "return return return";
+}
+.footinfo{
+    grid-area: footinfo;
+    display: flex;
+    flex-direction: row;
+}
+.footinfo h3{
+    padding: 2vw;
+    padding-left: .5vw;
+}
+.footinfo img{
+    width: 4vw;
+    height: 4vw;
+    margin: 1.5vw;
+    margin-right: .25vw;
+}
+.returnpol{
+    margin-top: -.5vw;
+    padding: 2.5vw;
+    font-size: 1.25vw;
+    grid-area: return;
+    background-color: rgb(84, 106, 148);
+}
+    .returnpol a{
+        color: black;
+    }
+.carousel-control-next{
+    transform: translateX(15vw);
+}
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
+#myimage{
+    border: .25vw solid black;
+    margin: 1vw 2.5vw;
+    grid-area: image;
+}
+#itemhead{
+    padding: 2.5vw;
+    grid-area: itemhead;
+}
+#itemdesc{
+    padding: 2.5vw;
+    grid-area: itemdesc;
+    transform: translateY(-22.5vw);
+    margin-bottom: -20vw;
+    margin-right: 15vw;
+}
+    #itemdesc button{
+        color: black;
+        text-decoration: none;
+        border: .25vw solid rgb(202, 3, 3);
+        background-color: rgb(202, 3, 3);
+        padding: .5vw 1vw;
+        border-radius: 2.5vw;
+    }
+    #itemdesc button:hover{
+        color: black;
+        text-decoration: none;
+        border: .25vw solid rgb(131, 28, 28);
+        background-color: rgb(131, 28, 28);
+        padding: .5vw 1vw;
+        border-radius: 2.5vw;
+    }
+.productcontainer{
+    display: grid;
+    grid-template-areas: 
+    "image itemhead"
+    "image itemdesc";
+}
+.footlinks{
+    grid-area: footlinks;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    transform: translateY(-3vw);
+}
+    .footlinks a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.25vw;
+    }
+#footsearch{
+    width: 25vw;
+    margin-top: 1.5vw;
+}
+#footsearchbutton{
+    margin-top: 1.5vw;
+}
+.footmap{
+    grid-area: footmap;
+    padding: 2.5vw;
+}
+    .footmap iframe{
+        width: 20vw;
+        height: 20vw;
+    }
+.footsocials{
+    grid-area: footsocials;
+    font-size: 1.25vw;
+    margin-top: 5vw;
+}
+#mainfoot{
+    width: 120%;
+}
+
+.contactmain{
+    display: grid;
+    grid-template-areas: 
+    "contacttext contacttext contactimg2";
+}
+.contacttext{
+    grid-area: contacttext;
+    margin: 2.5vw 5vw;
+    width: 50vw;
+}
+.contactimg2{
+    background-color: rgb(245, 235, 252);
+    text-align: center;
+    margin: 2.5vw;
+}
+#contacthead{
+    margin: 1vw 2.5vw;
+    background-color: rgb(160, 186, 235);
+    font-size: 2.5vw;
+    padding: 1.5vw;
+    text-align: center;
+}
+.contactsocials{
+    text-align: center;
+    margin: 5vw;
+    background-color: rgb(192, 228, 235);
+    padding: 2.5vw;
+    font-size: 1.25vw;
+    margin-top: .5vw;
+}
+#abouthead{
+    background-color: rgb(160, 186, 235);
+    text-align: center;
+    padding: 1.5vw;
+    margin: 1vw 5vw;
+}
+.aboutmain{
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-areas: 
+    "vision vision aboutimg"
+    "abthead abthead abthead"
+    "abttext abttext abttext";
+}
+.visionstatement{
+    grid-area: vision;
+}
+.aboutimg{
+    grid-area: aboutimg;
+    background-color: rgb(245, 235, 252);
+    padding: 1.5vw;
+    border-radius: 2.5vw;
+}
+.visionstatement h5{
+    background-color: rgb(192, 228, 235);
+    width: 15vw;
+    font-size: 2vw;
+    text-align: center;
+    padding: .75vw .5vw;
+    border-top-right-radius: 2.5vw;
+    margin-bottom: 0;
+}
+.visionstatement p{
+    padding: 1.5vw;
+    border: 5px solid rgb(192, 228, 235);
+    background-color: rgb(192, 228, 235);
+    font-size: 1.25vw;
+    width: 50vw;
+    border-bottom-right-radius: 5vw;
+    border-top-right-radius: 5vw;
+}
+.aboutmain h4{
+    grid-area: abthead;
+    margin: .25vw 2.5vw;
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+.abouttext{
+    grid-area: abttext;
+    margin: 2.5vw;
+    font-size: 1.25vw;
+}
+.FAQ{
+    margin: .5vw 2.5vw;
+    line-height: .75vw;
+    background-color: rgb(245, 235, 252);
+    padding: 1.5vw;
+}
+.FAQ h4{
+    text-align: center;
+    font-size: 2vw;
+}
+.answer{
+    margin-left: 1.5vw;
+}
+#pricesortbutton{
+    background-color: rgb(84, 106, 148);
+    border:rgb(84, 106, 148);
+    padding: .5vw 1vw;
+    border-top-right-radius: .5vw;
+}
